@@ -1,0 +1,72 @@
+{
+	"$schema"  : "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name"		 : "CFG",
+	"scopeName": "csgo.cfg",
+
+	"patterns":
+	[
+		{
+			"include"  : "#keywords"
+		},
+		{
+			"include"  : "#strings"
+		},
+		{
+			"include"  : "#commands"
+		},
+		{
+			"include"  : "#comments"
+		}
+	],
+
+
+	"repository":
+	{
+
+		"keywords":
+		{
+			"patterns":
+			[
+				{
+					"name"    : "support.function",
+					"match"   : "^(\\s+(\\b(alias|bind_osx|bind|clear|echo|execifexists|execwithwhitelist|exec|host_writeconfig_ss|host_writeconfig|key_updatelayout|playvol|say_team|say|unbindalljoystick|unbindallmousekeyboard|unbindall))|\\b(alias|bind_osx|bind|clear|echo|execifexists|execwithwhitelist|exec|host_writeconfig_ss|host_writeconfig|key_updatelayout|playvol|say_team|say|unbindalljoystick|unbindallmousekeyboard|unbindall))"
+				}
+			]
+		},
+
+		"strings":
+		{
+			"patterns":
+			[
+				{
+					"name"   : "string",
+					"match"  : "(\".*?\")"
+				}
+			]
+		},
+
+		"commands":
+		{
+			"patterns":
+			[
+				{
+					"name"    : "variable.parameter",
+					"match"		: "^(\\@|\\+|\\-|\\_|\\s+(\\@|\\+|\\-|\\_|[a-zA-Z])[_a-zA-Z0-9]*|[a-zA-Z])[_a-zA-Z0-9]*"
+				}
+			]
+		},
+
+		"comments":
+		{
+			"patterns":
+			[
+				{
+					"name"    : "comment",
+					"match"		: "(\/\/.*)"
+				}
+			]
+		}
+
+	}
+
+}
