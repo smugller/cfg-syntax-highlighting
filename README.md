@@ -5,7 +5,7 @@ This extension add support for `.cfg` files in Visual Studio Code and making a b
 
 # Features
 
-| Before :-1: | After :thumbsup: |
+| Before | After |
 |--|--|
 | ![CS:GO .cfg file without syntax highlighting](https://i.imgur.com/KA8bHgc.png) |![CS:GO .cfg file with syntax highlighting](https://i.imgur.com/Ja9Azq2.png)  |
 | **Plain Text** | **CFG**  |
@@ -57,7 +57,7 @@ Here are the best client config that I found on the whole internet. But, be care
 **v1.0.0**
  - Initial release
 
-# :email: Contact
+# Contact
 
 If you have any ideas or questions please contact with me somehow.
 
