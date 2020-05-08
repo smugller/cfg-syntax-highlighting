@@ -1,25 +1,15 @@
 
 # Overwiew
 
-This extension add support for `.cfg` files in Visual Studio Code and making a beautiful syntax highlighting for Valve games like CS:GO or Team Fortress 2. etc.
+This extension add support for `.cfg` files in Visual Studio Code and making a beautiful syntax highlighting for Valve games like CS:GO or Team Fortress 2 etc.
 
 # Features
 
-<table>
-<tr>
-<td style="text-align: center;"><b>Before</b></td>
-<td style="text-align: center;"><b>After</b></td>
-</tr>
-  <tr>
-    <td><img src="https://i.imgur.com/KA8bHgc.png" alt="CS:GO .cfg  file without syntax highlighting" /></td>
-    <td><img src="https://i.imgur.com/Ja9Azq2.png" alt="CS:GO .cfg file with syntax highlighting" /></td>
-  </tr>
-  <tr>
-        <td><b>Plain Text</b><br /><i>My custom VSCode theme <b>without</b> extension.</i></td>
-    <td><b>CFG</b><br /><i>My custom VSCode theme <b>with</b> extension.</i></td>
-  </tr>
-</table>
-
+| Before :-1: | After :thumbsup: |
+|--|--|
+| ![CS:GO .cfg file without syntax highlighting](https://i.imgur.com/KA8bHgc.png) |![CS:GO .cfg file with syntax highlighting](https://i.imgur.com/Ja9Azq2.png)  |
+| **Plain Text** | **CFG**  |
+| My custom VSCode theme **without** extension | My custom VSCode theme **with** extension. |
 
 # Installation
 
@@ -67,7 +57,7 @@ Here are the best client config that I found on the whole internet. But, be care
 **v1.0.0**
  - Initial release
 
-# Contact
+# :email: Contact
 
 If you have any ideas or questions please contact with me somehow.
 
