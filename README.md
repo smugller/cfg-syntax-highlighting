@@ -1,65 +1,78 @@
-# cs-go-syntax-highlighter-pro README
 
-This is the README for your extension "cs-go-syntax-highlighter-pro". After writing up a brief description, we recommend including the following sections.
+# Overwiew
 
-## Features
+This extension add support for `.cfg` files in Visual Studio Code and making a beautiful syntax highlighting for Valve games like CS:GO or Team Fortress 2. etc.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+# Features
 
-For example if there is an image subfolder under your extension project workspace:
+<table>
+<tr>
+<td><center><b>Before</b></center></td>
+<td><center><b>After</b></center></td>
+</tr>
+  <tr>
+    <td><img src="https://i.imgur.com/KA8bHgc.png" alt="CS:GO .cfg  file without syntax highlighting" /></td>
+    <td><img src="https://i.imgur.com/Ja9Azq2.png" alt="CS:GO .cfg file with syntax highlighting" /></td>
+  </tr>
+  <tr>
+        <td><center>Plain Text</center><br /><i>My custom VSCode theme <b>without</b> extension.</i></td>
+    <td><center>CFG</center><br /><i>My custom VSCode theme <b>with</b> extension.</i></td>
+  </tr>
+</table>
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+# Installation
 
-## Requirements
+Just install extension from Visual Studio Marketplace and enjoy! It's working only with `.cfg` file extensions!
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Test if everything is working
 
-## Extension Settings
+With this extensions I will add the `examples` folder, so you can test this plugin on your computer. Just open file `autoexec.cfg` from directory **$HOME/.vscode/extensions/cs-go-syntax-highlighter-pro/examples/autoexec.cfg** and `Select Language Mode` in VSCode or `Configure File Association for '.cfg' ...` files.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+# Customize your config
 
-For example:
+## How to get all latest cvars from source engine?
 
-This extension contributes the following settings:
+Maybe you didn't know, but it's almost 5000 commands and cvars in CS:GO. This is really huge list that should be sorted with a modern way!
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+Here yo have plugin to reveal all console variables/commands that are marked as hidden/development-only. It's nice to check time to time for deprecated or new cvar commands.
+
+> Source: [csgo-cvar-unhide](https://github.com/saul/csgo-cvar-unhide)
+
+Ready to view all cvar commands directly from GitHub (check the date and time, because I'm not guaranteed that these repo will be always updated). You can easily look for all CS:GO cvars alongside ones marked as hidden/development-only. Repo is contributed by ArminC.
+
+> Source: [ArminC-CSGO-Cvars](https://github.com/ArmynC/ArminC-CSGO-Cvars)
+
+# CS:GO Client Config
+
+Here are the best client config that I found on the whole internet. But, be careful what are you copying and paste.
+
+*ArminC's configuration for CS:GO Client - well documented, analysed and no misconceptions:*
+
+> Source: [ArminC-AutoExec](https://github.com/ArmynC/ArminC-AutoExec)
+
+# More Information
+
+## Games Supported
+
+ - CS:GO
+ - Team Fortress 2
+ - Other based on `.cfg` files (but not tested)
 
 ## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- No known issues
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+**v1.0.0**
+ - Initial release
+![enter image description here](asdasd)
 
-### 1.0.0
 
-Initial release of ...
+# Contact
 
-### 1.0.1
+If you have any ideas or questions please contact with me somehow.
 
-Fixed issue #.
+```
 
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+```
