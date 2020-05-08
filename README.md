@@ -7,16 +7,16 @@ This extension add support for `.cfg` files in Visual Studio Code and making a b
 
 <table>
 <tr>
-<td><center><b>Before</b></center></td>
-<td><center><b>After</b></center></td>
+<td style="text-align: center;"><b>Before</b></td>
+<td style="text-align: center;"><b>After</b></td>
 </tr>
   <tr>
     <td><img src="https://i.imgur.com/KA8bHgc.png" alt="CS:GO .cfg  file without syntax highlighting" /></td>
     <td><img src="https://i.imgur.com/Ja9Azq2.png" alt="CS:GO .cfg file with syntax highlighting" /></td>
   </tr>
   <tr>
-        <td><center>Plain Text</center><br /><i>My custom VSCode theme <b>without</b> extension.</i></td>
-    <td><center>CFG</center><br /><i>My custom VSCode theme <b>with</b> extension.</i></td>
+        <td><b>Plain Text</b><br /><i>My custom VSCode theme <b>without</b> extension.</i></td>
+    <td><b>CFG</b><br /><i>My custom VSCode theme <b>with</b> extension.</i></td>
   </tr>
 </table>
 
@@ -66,8 +66,6 @@ Here are the best client config that I found on the whole internet. But, be care
 
 **v1.0.0**
  - Initial release
-![enter image description here](asdasd)
-
 
 # Contact
 
