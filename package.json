@@ -1,54 +1,74 @@
 {
-    "name"                  : "cs-go-syntax-highlighter-pro",
-    "displayName"           : "CS:GO Syntax Highlighter Pro",
-    "description"           : "Support .cfg syntax highlighting for CS:GO commands and cvars!",
-    "version"               : "1.0.0",
-    "author"                : "Smugller",
-    "publisher"             : "Smugller",
-    "icon"                  : "images/icon.png",
-    "engines": {
-        "vscode"            : "^1.33.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/smugller/cfg-syntax-highlighting"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "keywords": [
-        "csgo",
-        "cs:go",
-        "cs-go",
-        "CSGO",
-        "CS:GO",
-        "CS-GO",
-        "counter",
-        "strike",
-        "counter strike",
-        "global",
-        "offensive",
-        "global offensive",
-        "valve",
-        "source engine",
-        "cvar",
-        "cvars",
-        "syntax",
-        "highlight",
-        "highlighter",
-        "colorizer"
-    ],
-    "contributes": {
-        "languages": [{
-            "id"            : "cfg",
-            "aliases"       : ["CFG", "cfg", ".cfg", ".CFG", "csgo", "CSGO", "cs:go","CS:GO"],
-            "extensions"    : [".cfg"],
-            "configuration" : "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language"      : "cfg",
-            "scopeName"     : "csgo.cfg",
-            "path"          : "./syntaxes/cfg.tmLanguage.json"
-        }]
-    }
+	"name": "cs-go-syntax-highlighter-pro",
+	"displayName": "CS:GO Syntax Highlighter Pro",
+	"description": "Support .cfg syntax highlighting for CS:GO commands and cvars!",
+	"version": "1.0.0",
+	"author": "Smugller",
+	"publisher": "Smugller",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/smugller/cfg-syntax-highlighting"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"csgo",
+		"cs:go",
+		"cs-go",
+		"CSGO",
+		"CS:GO",
+		"CS-GO",
+		"counter",
+		"strike",
+		"counter strike",
+		"global",
+		"offensive",
+		"global offensive",
+		"valve",
+		"source engine",
+		"cvar",
+		"cvars",
+		"syntax",
+		"highlight",
+		"highlighter",
+		"colorizer"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "cfg",
+				"aliases": [
+					"CFG",
+					"cfg",
+					".cfg",
+					".CFG",
+					"csgo",
+					"CSGO",
+					"cs:go",
+					"CS:GO"
+				],
+				"extensions": [
+					".cfg"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "cfg",
+				"scopeName": "csgo.cfg",
+				"path": "./syntaxes/cfg.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "25e4fbaf-1656-4999-9718-417698ab5009",
+		"publisherDisplayName": "Smugller",
+		"publisherId": "4c0a45a9-10b9-48e4-88c4-70c673634ac6"
+	}
 }
